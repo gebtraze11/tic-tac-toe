@@ -1,0 +1,40 @@
+
+#grid{
+    display: grid;
+    width: 96vw;
+    height: 96vw;
+    grid-template-columns: auto auto auto;
+    padding: 2vw;
+    
+}
+.cell{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    /* display: inline-block; */
+   text-align: center;
+   line-height: 32vw;
+   font-size: 15vw;
+   font-family: "Lucida Console", Monaco, monospace;
+
+}
+.cell:nth-child(1),
+.cell:nth-child(2),
+.cell:nth-child(3){
+    border-top: none;
+}
+.cell:nth-child(1),
+.cell:nth-child(4),
+.cell:nth-child(7){
+    border-left: none;
+}
+.cell:nth-child(3),
+.cell:nth-child(6),
+.cell:nth-child(9){
+    border-right: none;
+}
+.cell:nth-child(7),
+.cell:nth-child(8),
+.cell:nth-child(9){
+    border-bottom: none;
+}

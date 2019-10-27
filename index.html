@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <select id="select-mode">
+        <option>single player</option>
+        <option>two player</option>
+    </select>
+    
+    <select id="select-position">
+        <option>choose X</option>
+        <option>choose O</option>
+        <option>random</option>
+    </select>
+
+    <button id='restart-button'>start new game</button>
+    <div id="gameover-message"></div>
+    
+    <div id="grid">
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+        <span class="cell">&nbsp;</span>
+    </div>
+
+    <script defer src="index.js"></script>
+</body>
+</html>
